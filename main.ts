@@ -34,3 +34,9 @@ writeFileSync(
   join(out, 'dossier.json'),
   buildDossier(out, { text_max_bytes: 163840, screenshots: { max: 4, max_bytes: 262144 }, app_max_files: 993, app_max_bytes: 50331648 }),
 );
+
+// Leonida Platinum Ledger, handed in: 55 official trophies, every one with a guide in our own words and at
+// least one linked source, a five-stage roadmap, an honest one-item missables page, a spoiler setting and
+// offline progress tracking. The line below is the only thing this file adds to the starter's plumbing.
+const ENTRY_LINE = 'Leonida Platinum Ledger: 55/55 trophies guided and cited, roadmap and missables included.';
+console.log(`handed in: ${ENTRY_LINE}`);
